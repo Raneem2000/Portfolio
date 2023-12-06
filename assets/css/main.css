@@ -1929,3 +1929,9 @@ header img {
     border-radius: 50%;
   }
 }
+header button{
+  border: 2px solid #f43a7b;
+}
+header button a{
+  color: #64cbf0;
+}
