@@ -1929,9 +1929,56 @@ header img {
     border-radius: 50%;
   }
 }
-header button{
+header button {
   border: 2px solid #9788d7 !important;
 }
-header button a{
+header button a {
   color: #c2a0c2 !important;
 }
+/* Start Skills */
+.our-skills {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+}
+.our-skills .container {
+  display: flex;
+  align-items: center;
+}
+.our-skills img {
+border-radius: 10%;
+}
+@media (max-width: 991px) {
+  .our-skills img {
+    display: none;
+  }
+}
+.our-skills .skills {
+  flex: 1;
+}
+.our-skills .skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-skills .skill h3 span {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: a65489;
+}
+.our-skills .skill .the-progress {
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.our-skills .skill .the-progress span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #a6b4e8;
+}
+/* End Skills */
