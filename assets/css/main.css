@@ -1727,7 +1727,7 @@ body {
   max-width: 100%;
   position: relative;
   overflow: hidden;
-  opacity: 0.7;
+  opacity: 0.9;
   background-color: rgba(237, 216, 216, 0.19);
   transition: var(--main-transition);
 }
@@ -1757,6 +1757,7 @@ body {
 .feature .box:hover .img-class::after {
   border-style: solid;
   border-width: 0px;
+  opacity: 1;
   border-color: transparent transparent transparent transparent;
 }
 .feature .box .content {
